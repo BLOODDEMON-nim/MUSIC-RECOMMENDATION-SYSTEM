@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Music Mood Recommender</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎵 Music Mood Recommender</h1>
+    <select id="moodSelect">
+      <option value="">-- Select Mood --</option>
+      <option value="chill">Chill</option>
+      <option value="rock">Rock</option>
+      <option value="happy">Happy</option>
+      <option value="sad">Sad</option>
+      <option value="energetic">Energetic</option>
+      <option value="romantic">Romantic</option>
+      <option value="study">Study</option>
+      <option value="party">Party</option>
+      <option value="focus">Focus</option>
+      <option value="sleep">Sleep</option>
+      <option value="jazz">Jazz</option>
+      <option value="lofi">Lo-fi</option>
+      <option value="classical">Classical</option>
+      <option value="workout">Workout</option>
+    </select>
+    <button onclick="getRecommendations()">Get Recommendations</button>
+    <div id="recommendations"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
